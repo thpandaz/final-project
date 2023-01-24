@@ -1,0 +1,11 @@
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.testimonials-title {
+  text-align: center;
+  font-size: 64px;
+}

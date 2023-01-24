@@ -1,0 +1,48 @@
+.card-container {
+  padding: 1.3rem;
+  border-radius: 2rem;
+  background: transparent;
+  border: 5px solid transparent;
+  border-color:#495E57;
+  transition: all 400ms ease;
+  
+}
+
+.card-container:hover{
+  width: 105%;
+  height: 105%;
+}
+
+
+.card-img{
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.card-title{
+  color: #495E57;
+  font-size: medium;
+}
+
+.card-price{
+  color: #495E57;
+  font-size: 40px;
+}
+
+.card-btn{
+  background:#495E57;
+  width: max-content;
+  display: inline-block;
+  color: white;
+  padding:  0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border:  1px solid var(--color-primary);
+  transition: all 400ms ease;
+}
+
+.card-btn:hover{
+  background: #F4CE14;
+  color:#495E57;
+  border-color: transparent;
+}

@@ -1,0 +1,47 @@
+.footer-container {
+  width: 100%;
+  margin: auto;
+  padding: 2% 10%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "image nav . contact . social";
+  background-color: #495e57;
+}
+
+.footer-image {
+  background-image: url(/src/images/logo_monochrome.png);
+  grid-area: image;
+  width: 125px;
+  height: 180px;
+  background-position: center;
+}
+
+.footer-nav {
+  grid-area: nav;
+}
+
+.fnav-title,
+.contact-title,
+.social-title {
+  margin-bottom: 10px;
+  color: #edefee;
+  font-weight: bolder;
+}
+
+.footer-contact {
+  grid-area: contact;
+}
+
+.footer-social {
+  grid-area: social;
+}
+
+ul li {
+  list-style: none;
+  color: #edefee;
+}
+
+address {
+  color: #edefee;
+}

@@ -1,0 +1,30 @@
+.nav-container {
+  display: grid;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 2fr 7fr;
+  font-size: large;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  color: #495E57;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15%;
+}
+
+.logo {
+  overflow: hidden;
+  background-image: url(/src/images/Logo.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 140px;
+  cursor: pointer;
+}
